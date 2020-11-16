@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: minmax(auto, auto);
+    align-self: flex-start;
+}
+
+.wrapper>div {
+    border: 1px solid red;
+}
+
+.chat {
+    display: grid;
+    grid-template-rows: 4.5rem minmax(30rem, 40rem) 4.5rem;
+}
+
+.chat>div {
+    border: 1px solid blue;
+}
