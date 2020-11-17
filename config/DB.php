@@ -7,8 +7,8 @@ class Connection {
     public static function connect() {
 
         $dsn = 'mysql:host=127.0.0.1;dbname=chat_web;charset=utf8mb4';
-        $user = 'root';
-        $pswd = '';
+        $user = 'user';
+        $pswd = 'Admin123';
         $options = [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,

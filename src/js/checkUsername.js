@@ -12,7 +12,7 @@
 
         $.ajax({
             type: "GET",
-            url: "../../config/checkusername.php?user=" + username,
+            url: "../../config/checkUsername.php?user=" + username,
             dataType: "text",
             beforeSend: function() {
                 $usernameMsg.html('<div class="cssload-spin-box"></div>');
