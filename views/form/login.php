@@ -18,7 +18,7 @@
                     <div class="input-icon">
                         <i class="fas fa-user"></i>
                     </div>
-                    <input type="text" name="loginUsername" placeholder="Usuario" autofocus required>
+                    <input type="text" name="loginUsername" placeholder="Usuario" autofocus>
                 </div>
 
                 <div class="form-input">
@@ -34,7 +34,7 @@
 
             </div>
 
-            <!--<div class="cssload-spin-box"></div>-->
+            <div class="alertMessage"></div>
 
             <div class="form-btn">
                 <button type="submit" name="login-btn" id="login-btn" class="btn">Iniciar sesión</button>

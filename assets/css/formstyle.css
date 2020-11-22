@@ -273,6 +273,8 @@ a:hover {
     color: #fff;
 }
 
+
+/*
 .alert-danger::after {
     content: '\00D7';
     display: block;
@@ -282,6 +284,7 @@ a:hover {
     color: #fff;
     font-size: 2rem;
 }
+*/
 
 @media (max-width: 500px) {
     #login,

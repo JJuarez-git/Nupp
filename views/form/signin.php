@@ -28,7 +28,6 @@
                     </div>
                     <input type="text" name="signinUsername" id="username" placeholder="Usuario">
                 </div>
-                <div class="username-msg"></div>
 
                 <div class="form-input required">
                     <label for="signinPassword">Contraseña</label>
@@ -42,17 +41,21 @@
                 </div>
 
                 <div class="form-input required">
-                    <label for="signinPassword">Confimar contraseña</label>
+                    <label for="signinPassword">Confirmar contraseña</label>
                     <div class="input-icon">
                         <i class="fas fa-lock"></i>
                     </div>
-                    <input type="password" name="signinPassword" placeholder="Contraseña">
+                    <input type="password" name="signinConfirmPassword" placeholder="Contraseña">
                     <div class="input-icon-eye">
                         <i class="far fa-eye"></i>
                     </div>
                 </div>
 
             </div>
+
+            <div class="username-msg"></div>
+
+            <div class="alertMessage"></div>
 
             <div class="form-btn">
                 <button type="submit" name="signin-btn" id="signin-btn" class="btn">Enviar</button>
